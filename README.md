@@ -18,7 +18,7 @@ Project được xây dựng bằng **Python** và **OpenCV**, thực hiện cá
 
 | STT | Họ và tên | Công việc |
 |-----|-----------|-----------|
-| 1 | ................ | Brightness |
+| 1 | Nguyễn Thị Xuân Mai | Brightness |
 | 2 | ................ | Contrast, Negative, Threshold |
 | 3 | ................ | Mean Filter |
 | 4 | ................ | Gaussian Filter, Sharpen |
