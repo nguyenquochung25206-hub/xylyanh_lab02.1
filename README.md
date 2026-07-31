@@ -22,7 +22,7 @@ Project được xây dựng bằng **Python** và **OpenCV**, thực hiện cá
 | 2 | ................ | Contrast, Negative, Threshold |
 | 3 | ................ | Mean Filter |
 | 4 | ................ | Gaussian Filter, Sharpen |
-| 5 | ................ | Sobel, Prewitt |
+| 5 | Lê Thị Lan My    | Sobel, Prewitt |
 | 6 | ................ | Median, Bilateral, Custom Kernel |
 | 7 | ................ | Main Program, Testing, Integration |
 
