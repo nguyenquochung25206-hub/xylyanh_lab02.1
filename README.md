@@ -21,7 +21,7 @@ Project được xây dựng bằng **Python** và **OpenCV**, thực hiện cá
 | 1 | Nguyễn Thị Xuân Mai | Brightness |
 | 2 | Lê Gia Huy  | Contrast, Negative, Threshold |
 | 3 | Lương Hoàng Phúc | Mean Filter |
-| 4 | ................ | Gaussian Filter, Sharpen |
+| 4 | Hoàng Đỗ Gia Huy | Gaussian Filter, Sharpen |
 | 5 | Lê Thị Lan My    | Sobel, Prewitt |
 | 6 | ................ | Median, Bilateral, Custom Kernel |
 | 7 | ................ | Main Program, Testing, Integration |
