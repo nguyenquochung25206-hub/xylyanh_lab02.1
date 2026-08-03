@@ -1,9 +1,3 @@
-"""
-File: sharpen.py
-Mô tả: Bộ lọc làm sắc nét (Sharpen) bằng kernel tăng cường cạnh.
-Hỗ trợ chạy độc lập để xử lý ảnh đầu vào.
-"""
-
 import cv2
 import numpy as np
 from pathlib import Path
@@ -50,7 +44,7 @@ def create_sample_image(input_dir: Path) -> Path:
         cv2.rectangle(image, (80, 90), (520, 310), (255, 255, 255), 3)
         cv2.circle(image, (300, 200), 90, (255, 255, 255), 3)
         cv2.imwrite(str(sample_path), image)
-        print(f"🧪 Đã tạo ảnh mẫu tại: {sample_path}")
+        print(f" Đã tạo ảnh mẫu tại: {sample_path}")
 
     return sample_path
 
@@ -88,4 +82,4 @@ if __name__ == "__main__":
                 pil_image.save(out_path)
             else:
                 cv2.imwrite(str(out_path), result)
-            print(f"✅ Đã lưu ảnh Sharpen tại: {out_path}")
+            print(f" Đã lưu ảnh Sharpen tại: {out_path}")
