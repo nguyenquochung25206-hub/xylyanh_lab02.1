@@ -1,12 +1,6 @@
-"""
-File: gaussian_filter.py
-Mô tả: Bộ lọc Gaussian (làm mờ tự nhiên). Hỗ trợ chạy độc lập để xử lý ảnh đầu vào.
-"""
-
 import cv2
 import numpy as np
 from pathlib import Path
-
 try:
     from PIL import Image # type: ignore
 except ImportError:
@@ -74,4 +68,4 @@ if __name__ == "__main__":
                 pil_image.save(out_path)
             else:
                 cv2.imwrite(str(out_path), result)
-            print(f"✅ Đã lưu ảnh Gaussian tại: {out_path}")
+            print(f" Đã lưu ảnh Gaussian tại: {out_path}")
